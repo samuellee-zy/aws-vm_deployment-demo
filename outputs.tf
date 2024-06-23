@@ -9,3 +9,7 @@ output "aws-terramino-ec2-public_dns" {
 output "aws-terramino-id" {
   value = module.vm_deployment.aws-terramino-id
 }
+
+output "module-version" {
+  value = module.vm_deployment.version
+}
