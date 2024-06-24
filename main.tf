@@ -1,6 +1,6 @@
 module "vm_deployment" {
   source  = "app.terraform.io/samuellee-dev/vm_deployment/aws"
-  version = "~> 0.0.1"
+  version = "1.0.2"
 
   ec2-name      = var.ec2-name
   instance_type = var.instance_type

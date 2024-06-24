@@ -27,3 +27,8 @@ variable "ec2-name" {
   description = "Name for EC2 instance"
   default     = "Sam"
 }
+
+variable "module_version" {
+  type    = string
+  default = "~> 1.0.0"
+}
